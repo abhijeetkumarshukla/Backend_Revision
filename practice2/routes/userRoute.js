@@ -46,4 +46,8 @@ userRouter.post("/login", async (req, res) => {
   }
 });
 
+userRouter.delete('/delete/:id',async(req,res)=>{
+  
+})
+
 module.exports = userRouter;

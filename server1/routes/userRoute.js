@@ -40,7 +40,6 @@ UserRouter.delete("/delete/:id", async (req, res) => {
   }
 });
 
-
 UserRouter.post("/login", async (req, res) => {
   const { email, password } = req.body;
   try {

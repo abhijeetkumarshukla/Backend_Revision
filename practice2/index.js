@@ -10,7 +10,7 @@ server.use("/user", userRouter);
 server.listen(PORT, async (req, res) => {
   try {
     await connection;
-    console.log(`server is running on port ${PORT}, and DB is connected.`);
+    console.log(`server is running on port ${PORT}. DB is connected.`);
   } catch (error) {
     console.log(`server is getting error${error}.`);
   }
